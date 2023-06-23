@@ -5,7 +5,7 @@ import Search from "./Search";
 function App() {
   return (
     <div className="app">
-      <img src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" className="nasaLogo" s/>
+      <img src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" className="nasaLogo" alt="" />
       <Search />
     </div>
   );
