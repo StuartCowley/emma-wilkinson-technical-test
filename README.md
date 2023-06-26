@@ -6,5 +6,4 @@ In this app we made a search engine that uploaded Nasa images to a browser when 
 
 ## images of the app
 
-![image of app](![alt text](https://github.com/Wilko2001/technical-test/main/image.jpg?raw=true)
-
+file:///home/wilko/tech-test/appsc.png
