@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Nasa image search engine.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## description
 
-## Available Scripts
+In this app we made a search engine that uploaded Nasa images to a browser when searched. We needed to render the images from an API and ensure the search input located specific images from this. For example, searching 'moon' would show all the images relating to the moon.
 
-In the project directory, you can run:
+## Images of the app
 
-### `npm start`
+![screenshot of app](./appsc.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Built with
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
 
-### `npm test`
+### Testing utilities
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Jest
+- React Testing Library
 
-### `npm run build`
+### Packages used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Axios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instructions for use
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Search for any Nasa image you would like to look at using the search bar, the app will then load any relevant images related to your search.
 
-### `npm run eject`
+### features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This app has a user-friendly interfact that allows you to search for Nasa images via an API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once you search for a particular image, all images will be located that relate to your search input. However, if you search for something and nothing is located a message will appear that states there is 'no results'.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Things I would like to add if I had more time
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If I had more time to spend on this app, I would like to add more styling to make the app more visually appealing. I would add to the top of the app where there is a lot of space, a few little icons that would have some animations to make the site more interactive.
 
-## Learn More
+I would additionally add a bar that had suggested searches, so users could have a clearer idea of what they can search for here or what the popular searches are.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I nice idea would be to add a filter on this search engine, this could make the site more user friendly, and make it easier for people to search via different categories. For example, there could be a galaxy section, this would include the names of different galaxies. This could be useful as people likely don't know the name of each one.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Finally, I could add an information secition for each image which would be informative for the user, and they would have a clearer idea of what that particular image is showing.
 
-### Code Splitting
+### Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Emma Wilkinson
